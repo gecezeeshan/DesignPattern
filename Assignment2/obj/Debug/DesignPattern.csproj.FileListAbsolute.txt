@@ -1,0 +1,6 @@
+D:\Zeeshan\maju\DP\Assignment2\Assignment2\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
+D:\Zeeshan\maju\DP\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+D:\Zeeshan\maju\DP\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+D:\Zeeshan\maju\DP\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+D:\Zeeshan\maju\DP\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+D:\Zeeshan\maju\DP\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
