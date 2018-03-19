@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using DesignPattern.Singleton;
 using DesignPattern.FactoryPattern;
+using Assignment2.Adapter;
+using Assignment2.DecoratorPattern;
 
 namespace DesignPattern
 {
@@ -25,10 +27,37 @@ namespace DesignPattern
 
             FactoryRun();
 
+            AdapterRun();
+
+            DecoratorRun();
 
             Console.Read();
         }
 
+        public static void DecoratorRun()
+        {
+            ConcreteComponent c = new ConcreteComponent();
+            ConcreteDecoratorA d1 = new ConcreteDecoratorA();
+            ConcreteDecoratorB d2 = new ConcreteDecoratorB();
+
+            // Link decorators
+
+            d1.SetComponent(c);
+            d2.SetComponent(d1);
+
+            d2.Operation();
+
+            // Wait for user
+
+            Console.ReadKey();
+
+        }
+        public static void AdapterRun()
+        {
+            Adapter ad = new Adapter();
+            ad.Request();
+
+        }
         public static void FactoryRun()
         {
             IProduct product;
